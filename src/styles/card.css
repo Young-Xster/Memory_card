@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(30, 30, 31, 0.401);
+  height: 200px;
+  width: 120px;
+  border-radius: 0.7rem;
+  margin: 0;
+  padding: 0.5rem;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+
+img {
+  grid-row: 1 / 2;
+  width: 70px;
+}
+
+h3 {
+    font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}

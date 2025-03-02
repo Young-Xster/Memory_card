@@ -1,0 +1,120 @@
+#game {
+  position: relative;
+}
+
+#main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10rem 4rem 1fr;
+  width: min(95vw, 700px);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  font-size: 4rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  gap: 1rem;
+  /* max-width: 200px; */
+  padding-top: 1rem;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding: 0.3rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  color: rgb(209, 209, 209);
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.scores {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
+}
+.scores p {
+  color: rgb(44, 45, 48);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.ti {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.red {
+  color: rgb(238, 33, 33);
+}
+
+.loading {
+  margin-top: 5rem;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.cards {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, 120px);
+  grid-template-rows: repeat(auto-fit, 200px);
+  gap: 0.5rem;
+}
+
+#popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 200;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#popup p {
+  font-size: 2rem;
+}
+.restart {
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
