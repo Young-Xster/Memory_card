@@ -64,4 +64,4 @@ This project is licensed under the MIT License. Feel free to use and modify it!
 - Inspired by classic memory games.
 
 ---
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Kamel Rmeda]
