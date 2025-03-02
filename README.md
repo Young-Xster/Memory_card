@@ -39,7 +39,7 @@ PokeMemo is a fun memory game where you test your ability to remember Pokémon c
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Young-Xster/pokememo.git
+   git clone https://github.com/Young-Xster/pokeMemo.git
    ```
 2. Navigate to the project folder:
    ```sh
