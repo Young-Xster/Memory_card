@@ -1,12 +1,65 @@
-# React + Vite
+# 🃏 PokeMemo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PokeMemo is a fun memory game where you test your ability to remember Pokémon cards! Choose the number of cards you want to play with and try to click on each Pokémon only once. If you click on the same card twice, you lose!
 
-Currently, two official plugins are available:
+## 🚀 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Play PokeMemo Here](#)  
+*https://pokememo-yngx.netlify.app/*
 
-## Expanding the ESLint configuration
+## 🎮 How to Play
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Select the number of cards you want to play with.
+2. Click on a Pokémon card to reveal it.
+3. Try to click on each Pokémon only once.
+4. If you click on the same Pokémon twice, the game is over!
+5. Your score is tracked, and you can try to beat your best score.
+
+## 🛠️ Technologies Used
+
+- **React** – For building the UI.
+- **CSS** – For styling.
+- **JavaScript** – For game logic.
+- **Pokemon API / Assets** – For Pokémon images and data.
+
+## 📸 Screenshots
+
+*(Add images or GIFs of your game in action!)*
+
+## 📌 Features
+
+✔️ Choose the number of cards to play with.  
+✔️ Interactive Pokémon card memory challenge.  
+✔️ Score tracking and best score system.  
+✔️ Retro pixel-style UI for a nostalgic feel.  
+
+## 📂 Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Young-Xster/pokememo.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd pokememo
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## 📜 License
+
+This project is licensed under the MIT License. Feel free to use and modify it!
+
+## ✨ Credits
+
+- Pokémon images and assets belong to their respective owners.
+- Inspired by classic memory games.
+
+---
+Made with ❤️ by [Your Name]
