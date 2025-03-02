@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# Local environment variables
+.env*
