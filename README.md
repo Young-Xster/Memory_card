@@ -23,8 +23,10 @@ PokeMemo is a fun memory game where you test your ability to remember Pokémon c
 - **Pokemon API / Assets** – For Pokémon images and data.
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/c7b0284a-a903-4d99-ab51-9cca981ec97d)
+![image](https://github.com/user-attachments/assets/c7d92827-4599-4275-9456-8ac56426e614)
 
-*(Add images or GIFs of your game in action!)*
+
 
 ## 📌 Features
 
